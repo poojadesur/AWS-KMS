@@ -88,8 +88,9 @@ public class AWSKMS {
 
         return buffer.toString();
     }
-
-    private static final String keyArn = "arn:aws:kms:us-east-2:431294699696:key/3d230b55-c005-4c58-b9a3-70617078d0b2";
+    
+    // put your KMS CMK key ARN here
+    private static final String keyArn = "";
 
     /*
 
